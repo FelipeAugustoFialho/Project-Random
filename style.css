@@ -2,20 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-   
+
+
 }
-img{
+
+img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-   
+
 }
 
 
 body {
     background: black;
-   
+
 }
 
 h2 {
@@ -23,19 +24,23 @@ h2 {
     font-size: 32px;
     margin-left: auto;
     margin-right: auto;
-    margin-left:auto;
+    margin-left: auto;
     display: table;
     margin-bottom: 20px;
 }
-div{
+
+div {
     margin-bottom: 20px;
-    margin-left: 650px;
-    margin-right: 70px;
+    margin-left: 390px;
+    margin-right: 0px;
+    margin-top: 20px;
+
+
 }
 
 input {
     display: inline-block;
-    width: 342px;
+    width: 250px;
     height: 72px;
     border-radius: 14px;
     border: 1px solid rgba(255, 255, 255, 0.20);
@@ -44,10 +49,11 @@ input {
     color: white;
     font-size: 32px;
     text-align: center;
-    
-}
-.input-min{
-    margin-left: -320px;
+
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+
 }
 
 button {
@@ -62,16 +68,36 @@ button {
     font-size: 36px;
     border-radius: 10px;
     background: #AEC346;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 103px;
+
     box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
-    
-   
+
+
 
 }
-footer{
-    color: white;
-    font-size: 25px;
-    margin-left: 850px;
-    margin-top: 200px;
+
+
+@media screen and (max-width: 900px) {
+
+    img {
+        width: 320px;
+        height: 215px;
+        margin-top: 42px;
+    }
+
+    div {
+        margin-left: 41px;
+        width: 100%;
+        margin-top: 100px;
+        width: 170px;
+        font-size: 26px;
+        margin: 34px;
+    
+
+}
+
+button {
+    width: 289px;
+    margin-left: -14px;
+}
 }
